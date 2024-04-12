@@ -1,0 +1,7 @@
+@import url('./normalize');
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: rgb(251, 251, 251);
+  background-color: rgb(37, 37, 37);
+}

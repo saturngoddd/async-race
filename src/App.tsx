@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.css';
+import Header from './ui/header/header';
 
 function App() {
-  return <p>Hello guys!</p>;
+  return (
+    <div className="app">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
