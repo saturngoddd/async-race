@@ -57,7 +57,9 @@ textarea,
 select {
   font: inherit;
 }
-
+a {
+  text-decoration: none;
+}
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;

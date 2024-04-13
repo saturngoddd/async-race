@@ -16,9 +16,15 @@ header {
   display: flex;
   column-gap: 20px;
 }
-.garage:active {
+.garage {
   text-align: center;
 }
 .winners {
   text-align: center;
+}
+a {
+  color: white;
+}
+.active {
+  color: rgb(226, 43, 189);
 }
