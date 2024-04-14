@@ -1,0 +1,26 @@
+.carWrapper {
+  margin: 40px auto;
+  max-width: 80%;
+  height: 100px;
+}
+
+.carItem {
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px dashed rgba(231, 233, 235, 0.516);
+}
+.carOption {
+  display: flex;
+  gap: 15px;
+}
+.carIcons {
+  cursor: pointer;
+  width: 30px;
+}
+.carName {
+  font-size: 15px;
+}
+.carLogo {
+  position: relative;
+  left: 0px;
+}
