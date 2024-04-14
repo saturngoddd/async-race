@@ -1,7 +1,12 @@
 import React from 'react';
+import CustomPagination from '../ui/customPagination/customPagination';
 
 function Garage() {
-  return <div>Garage</div>;
+  return (
+    <div>
+      <CustomPagination />
+    </div>
+  );
 }
 
 export default Garage;

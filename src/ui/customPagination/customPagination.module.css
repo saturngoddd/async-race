@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.pageLink {
+  cursor: pointer;
+  padding: 5px;
+  border: 2px solid rgb(164, 13, 202);
+}
+.pageItem {
+  cursor: pointer;
+  padding: 5px;
+  border: 2px solid rgb(164, 13, 202);
+}
+.active .pageLink {
+  background-color: blueviolet;
+}
